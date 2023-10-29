@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/1979771.jpg">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d66dae94aa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h2 class="header">Onilne Code Editor</h2><br>
+    <h4 class="header">HTML | CSS | JAVASCRIPT</h4>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i>HTML</label>
+            <textarea id="html-code" placeholder="Write HTML code here" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea id="css-code" placeholder="Write CSS code here" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-js"></i>JAVASCRIPT</label>
+            <textarea id="js-code" placeholder="Write JavaScript code here" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-play"></i>OUTPUT</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>
+            Onilne Code Editor by Vijay Shanker Sharma &copy;
+            2023. All rights reserved |
+        </p>
+        <p>
+            | Follow me on <a href="https://www.linkedin.com/in/vijay-shanker-sharma-b5053020a?"
+                style="color: #008170;">LinkedIn</a> |
+            Check out my <a href="https://github.com/DarkKnight6" style="color: #008170;">GitHub Profile</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
